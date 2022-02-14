@@ -7,9 +7,9 @@
  * Return: nothing
  */
 
-void cambio(size_t *n1, size_t *n2)
+void cambio(int *n1, int *n2)
 {
-	size_t tmp = *n1;
+	int tmp = *n1;
 
 	*n1 = *n2;
 	*n2 = tmp;
