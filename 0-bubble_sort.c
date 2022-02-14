@@ -7,9 +7,9 @@
  * Return: nothing
  */
 
-void cambio(int *n1, int *n2)
+void cambio(size_t *n1, size_t *n2)
 {
-	int tmp = *n1;
+	size_t tmp = *n1;
 
 	*n1 = *n2;
 	*n2 = tmp;
@@ -27,7 +27,7 @@ void bubble_sort(int *array, size_t size)
 	size_t i, j;
 
 	if (array == NULL)
-		printf("empy array");
+		printf("empty array");
 
 	for (i = 0; i < size - 1; i++)
 	{
