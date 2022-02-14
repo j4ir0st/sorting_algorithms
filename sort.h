@@ -1,11 +1,13 @@
 #ifndef SORT_H
 #define SORT_H
+
 #include <stdio.h>
 #include <stdlib.h>
 
 #include <fcntl.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+
 /**
  * struct listint_s - Doubly linked list node
  *
@@ -13,6 +15,7 @@
  * @prev: Pointer to the previous element of the list
  * @next: Pointer to the next element of the list
  */
+
 typedef struct listint_s
 {
 	const int n;
