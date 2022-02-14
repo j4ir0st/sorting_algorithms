@@ -27,7 +27,7 @@ void bubble_sort(int *array, size_t size)
 	size_t i, j;
 
 	if (array == NULL)
-		printf("empty array");
+		printf("empy array");
 
 	for (i = 0; i < size - 1; i++)
 	{
