@@ -1,12 +1,12 @@
 #include "sort.h"
 
 /**
+<
  * bubble_sort - genetate a sort bubble
  * @array: int
  * @size: size_t
  * Return: nothing
  */
-
 void bubble_sort(int *array, size_t size)
 {
 	unsigned int i, j, act_v = 0;
