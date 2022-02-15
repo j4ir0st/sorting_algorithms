@@ -42,4 +42,3 @@ void insertion_sort_list(listint_t **list)
 		}
 		head = ptr2;
 	}
-}
