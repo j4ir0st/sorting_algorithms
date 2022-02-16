@@ -42,5 +42,6 @@ void quick_sort_hoare(int *array, size_t size);
 void handle(int *array, int start, int end, size_t size);
 size_t partition(int *array, int start, int end, size_t size);
 
-
+void handler(int *a, int start, int end, size_t size);
+int lomuto(int *a, int start, int end, int size);
 #endif
