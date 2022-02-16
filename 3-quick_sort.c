@@ -15,7 +15,7 @@ void quick_sort(int *array, size_t size)
 /**
  * handler - Entry point
  * @a: array to sort
- * @star: start of the array
+ * @start: start of the array
  * @end: end of the array
  * @size: size of the array
  * Return: Nothing
@@ -36,10 +36,10 @@ void handler(int *a, int start, int end, size_t size)
 /**
  * lomuto - Entry point
  * @a: array to sort
- * @star: start of the array
+ * @start: start of the array
  * @end: end of the array
  * @size: size of the array
- * Return: Nothing
+ * Return: integer
  */
 
 int lomuto(int *a, int start, int end, int size)
